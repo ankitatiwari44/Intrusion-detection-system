@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+keras
+mtcnn
+numpy
+pillow
+ultralytics
+playsound==1.2.2
+tensorflow

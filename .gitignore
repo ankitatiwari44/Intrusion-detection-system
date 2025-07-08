@@ -1,0 +1,42 @@
+# Ignore folders
+yolo/
+__pycache__/
+.env/
+venv/
+.idea/
+*.egg-info/
+logs/
+output/
+checkpoints/
+.DS_Store
+
+# YOLO and large model files
+yolo/
+*.pt
+*.weights
+*.onnx
+*.h5
+*.ckpt
+*.cfg
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+Thumbs.db
